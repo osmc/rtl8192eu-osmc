@@ -1389,6 +1389,8 @@ ifneq ($(USER_MODULE_NAME),)
 MODULE_NAME := $(USER_MODULE_NAME)
 endif
 
+KSRC:=$(shell pwd)/../../../../
+
 ifneq ($(KERNELRELEASE),)
 
 rtk_core :=	core/rtw_cmd.o \
