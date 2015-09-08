@@ -25,9 +25,9 @@
 #include "../hal/OUTSRC/odm_precomp.h"
 
 
-#ifdef CONFIG_LOAD_PHY_PARA_FROM_FILE
-char	file_path[PATH_LENGTH_MAX];
-#endif
+//#ifdef CONFIG_LOAD_PHY_PARA_FROM_FILE
+//char	file_path[PATH_LENGTH_MAX];
+//#endif
 
 u8 rtw_hal_data_init(_adapter *padapter)
 {
