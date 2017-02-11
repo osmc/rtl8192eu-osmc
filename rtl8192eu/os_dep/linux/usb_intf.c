@@ -223,9 +223,6 @@ static struct usb_device_id rtw_usb_id_tbl[] ={
 	{USB_DEVICE(0x050D, 0x1004),.driver_info = RTL8188C_8192C}, /* Belkin - Edimax */
 	{USB_DEVICE(0x0BDA, 0x2E2E),.driver_info = RTL8188C_8192C}, /* Intel - - */
 	{USB_DEVICE(0x2357, 0x0100),.driver_info = RTL8188C_8192C}, /* TP-Link - TP-Link */
-	{USB_DEVICE(0x2357, 0x0107),.driver_info = RTL8192E}, /* TP-Link - Cameo */
-	{USB_DEVICE(0x2357, 0x0108),.driver_info = RTL8192E}, /* TP-Link - Cameo */
-	{USB_DEVICE(0x2357, 0x0109),.driver_info = RTL8192E}, /* TP-Link - Cameo */
 	{USB_DEVICE(0x06F8, 0xE035),.driver_info = RTL8188C_8192C}, /* Hercules - Edimax */
 	{USB_DEVICE(0x04BB, 0x0950),.driver_info = RTL8188C_8192C}, /* IO-DATA - Edimax */
 	{USB_DEVICE(0x0DF6, 0x0070),.driver_info = RTL8188C_8192C}, /* Sitecom - Edimax */
@@ -323,6 +320,9 @@ static struct usb_device_id rtw_usb_id_tbl[] ={
 	/*=== Customer ID ===*/
 	{USB_DEVICE(0x2001, 0x3319),.driver_info = RTL8192E}, /* D-Link - DWA-131 */
 	{USB_DEVICE(0x2357, 0x0109),.driver_info = RTL8192E}, /* TL-WN823N */
+        {USB_DEVICE(0x2357, 0x0107),.driver_info = RTL8192E}, /* TP-Link - Cameo */
+        {USB_DEVICE(0x2357, 0x0108),.driver_info = RTL8192E}, /* TP-Link - Cameo */
+        {USB_DEVICE(0x2357, 0x0109),.driver_info = RTL8192E}, /* TP-Link - Cameo */
 #endif
 
 #ifdef CONFIG_RTL8723B
